@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-image: url("assets/fundo_pagina.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 10px 0;
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-family: Arial;
+}
+
+a{
+    color: aliceblue;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+button{
+    display: block;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px auto;
+    background-color: transparent; /* Fundo transparente */
+    color: #ffffff; /* Cor do texto */
+    border: 1px solid #ffffff; /* Borda visível */
+    transition: 0.3s;
+
+}
+
